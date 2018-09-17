@@ -6,7 +6,66 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    class Class1
+    class Polynomial
     {
+        interface IDegree
+        {
+            bool Order (Object obj)
+            {
+
+            }
+        }
+
+        // A reference to the first node of a singly-linked list
+        private Node<Term> front;
+
+        // Creates the polynomial 0
+        public Polynomial()
+        {
+
+        }
+
+        // Inserts the given term t into the current polynomial in its proper order
+        public Polynomial AddTerm (Term t)
+        {
+
+        }
+
+        // Adds the given polynomials p and q to yeild a new polynomial
+        public static Polynomial operator + (Polynomial p, Polynomial q)
+        {
+            Polynomial result = null;
+
+            return result;
+        }
+
+        // Multiplies the given polynomials p and q to yield a new polynomial
+        public static Polynomial operator * (Polynomial p, Polynomial q)
+        {
+            Polynomial result = null;
+
+            return result;
+        }
+
+        // Evaluates the current polynomial for a given x
+        public double Evaluate (double x)
+        {
+            double result = 0;
+
+            return result;
+        }
+
+        // Prints the current polynomial
+        public void Print()
+        {
+
+        }
+
+        public bool Order (Object obj)
+        {
+            bool result = null;
+
+            return result;
+        }
     }
 }

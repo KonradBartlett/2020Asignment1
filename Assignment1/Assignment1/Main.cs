@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    class Program
+    class Main
     {
         static void Main(string[] args)
         {
@@ -15,7 +15,6 @@ namespace Assignment1
             Console.WriteLine("Hello World!");
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
         }
     }
 }

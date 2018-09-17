@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    class Class1
+    class Node<T>
     {
+        private T item;
+        private Node<T> next;
+
+        public Node (T item, Node<T> next)
+        {
+
+        }
+
+        // Read and write properties for each data member
     }
 }
