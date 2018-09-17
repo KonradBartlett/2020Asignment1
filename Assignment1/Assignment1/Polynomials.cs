@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    class Class1
+    class Polynomials
     {
     }
 }

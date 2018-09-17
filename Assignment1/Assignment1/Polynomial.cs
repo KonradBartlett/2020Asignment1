@@ -10,10 +10,7 @@ namespace Assignment1
     {
         interface IDegree
         {
-            bool Order (Object obj)
-            {
-
-            }
+            bool Order(Object obj);
         }
 
         // A reference to the first node of a singly-linked list
@@ -28,6 +25,9 @@ namespace Assignment1
         // Inserts the given term t into the current polynomial in its proper order
         public Polynomial AddTerm (Term t)
         {
+            Polynomial result = null;
+
+            return result;
 
         }
 
@@ -63,7 +63,7 @@ namespace Assignment1
 
         public bool Order (Object obj)
         {
-            bool result = null;
+            bool result = false;
 
             return result;
         }

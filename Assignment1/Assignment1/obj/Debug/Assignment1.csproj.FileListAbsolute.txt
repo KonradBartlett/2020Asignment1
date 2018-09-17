@@ -1,0 +1,7 @@
+C:\Users\Konra\OneDrive\Assignments\2020\Assignment1\2020Asignment1\Assignment1\Assignment1\obj\Debug\Assignment1.csprojAssemblyReference.cache
+C:\Users\Konra\OneDrive\Assignments\2020\Assignment1\2020Asignment1\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Konra\OneDrive\Assignments\2020\Assignment1\2020Asignment1\Assignment1\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\Konra\OneDrive\Assignments\2020\Assignment1\2020Asignment1\Assignment1\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\Konra\OneDrive\Assignments\2020\Assignment1\2020Asignment1\Assignment1\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\Konra\OneDrive\Assignments\2020\Assignment1\2020Asignment1\Assignment1\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\Konra\OneDrive\Assignments\2020\Assignment1\2020Asignment1\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
