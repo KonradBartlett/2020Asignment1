@@ -19,7 +19,8 @@ namespace Assignment1
         // Creates the polynomial 0
         public Polynomial()
         {
-            this.front = front.Next;
+            Term term = new Term(0, 0);
+            this.AddTerm(term);
         }
 
         // Inserts the given term t into the current polynomial in its proper order

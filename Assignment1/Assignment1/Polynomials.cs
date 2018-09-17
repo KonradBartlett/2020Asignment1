@@ -13,14 +13,14 @@ namespace Assignment1
         // Creates an empty list of polynomials
         public Polynomials()
         {
-            Polynomials P;
+            Polynomials P = null;
         }
 
         // Retrieves the polynomial stored at position i-1 in the list
         public Polynomial Retrieve (int i)
         {
             Polynomial result = null;
-
+            
             result = P.ElementAt(i);
 
             return result;
@@ -41,16 +41,15 @@ namespace Assignment1
         // Prints out the list of polynomials (beginning with polynomial 1)
         public void Print()
         {
-            // number of polynomials in list
-            int count = 0;
-
-            // for every polynomial in p
-            for(int i = 0; i < P.Count; i++)
+            if (P != null)
             {
-                // write polynomial at index i
-                Console.WriteLine(P.ElementAt(i));
+                // for every polynomial in p
+                for (int i = 0; i < P.Count; i++)
+                {
+                    // write polynomial at index i
+                    Console.WriteLine(P.ElementAt(i));
+                }
             }
         }
-
     }
 }
