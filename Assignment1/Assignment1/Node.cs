@@ -13,9 +13,21 @@ namespace Assignment1
 
         public Node (T item, Node<T> next)
         {
-
+            this.item = item;
+            this.next = next;
         }
 
         // Read and write properties for each data member
+        public T Item
+        {
+            get { return this.item; }
+            set { this.item = value; }
+        }
+
+        public Node<T> Next
+        {
+            get { return this.next; }
+            set { this.next = value; }
+        }
     }
 }

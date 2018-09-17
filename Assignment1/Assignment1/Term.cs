@@ -39,17 +39,17 @@ namespace Assignment1
             int result = 0;
             Term term = obj as Term;
 
-            if (term.getExponent() < this.exponent)
+            if (term.Exponent < this.exponent)
             {
                 result = -1;
             }
 
-            if (term.getExponent() == this.exponent)
+            if (term.Exponent == this.exponent)
             {
                 result = 0;
             }
 
-            if (term.getExponent() > this.exponent)
+            if (term.Exponent > this.exponent)
             {
                 result = 1;
             }
@@ -58,31 +58,16 @@ namespace Assignment1
         }
 
         // Read and write properties for each data member
-        public double getCoefficient()
+        public double Coefficient
         {
-            return this.coefficient;
+            get { return this.coefficient; }
+            set { this.coefficient = value; }
         }
 
-        public void setCoefficient(double coefficient)
+        public byte Exponent
         {
-            this.coefficient = coefficient;
-        }
-
-        public byte getExponent()
-        {
-            return this.exponent;
-        }
-
-        public void setExponent(byte exponent)
-        {
-            this.exponent = exponent;
-        }
-
-        public override bool Equals(object obj)
-        {
-            var term = obj as Term;
-            return term != null &&
-                   exponent == term.exponent;
+            get { return this.exponent; }
+            set { this.exponent = value; }
         }
     }
 }
