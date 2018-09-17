@@ -19,7 +19,7 @@ namespace Assignment1
         // Creates the polynomial 0
         public Polynomial()
         {
-
+            this.front = front.Next;
         }
 
         // Inserts the given term t into the current polynomial in its proper order
@@ -28,7 +28,6 @@ namespace Assignment1
             Polynomial result = null;
 
             return result;
-
         }
 
         // Adds the given polynomials p and q to yeild a new polynomial
