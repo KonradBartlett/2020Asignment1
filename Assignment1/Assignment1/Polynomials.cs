@@ -35,7 +35,7 @@ namespace Assignment1
         // Deletes the polynomials at index i-1
         public void Delete (int i)
         {
-            P.RemoveAt(i);
+            P.RemoveAt(i-1);
         }
 
         // Prints out the list of polynomials (beginning with polynomial 1)
